@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image slider</title>
+	<link rel="stylesheet" type="text/css" href="slider.css">
+</head>
+<body>
+	<div class="wrapper">
+        <header id="homeSection">
+            <h1>The Today's World News</h1>
+                
+            <nav>
+                <a href="slider.html">Home</a>
+                <a href="demo1.html">Gallery</a>                
+                <a href="#categorySection">Categories</a>
+                <a href="#aboutSection">About</a>
+                <a href="#contactSection">Contact us</a>
+            </nav>
+
+                <div class="container">
+                   <input type="radio" name="images" id="i1" checked>
+                   <input type="radio" name="images" id="i2">
+                   <input type="radio" name="images" id="i3">
+                   <input type="radio" name="images" id="i4">
+
+                    <div class="slide_img" id="one">
+                       <img src="corona.jpg" style="width: 100%; height: 100%">
+
+                       <label for="i4" class="pre"></label>
+                       <label for="i2" class="nxt"></label>
+                    </div>
+
+                    <div class="slide_img" id="two">
+                       <img src="eco.jpg" style="width: 100%; height: 100%">
+
+                       <label for="i1" class="pre"></label>
+                       <label for="i3" class="nxt"></label>
+                    </div> 
+
+                    <div class="slide_img" id="three">
+                       <img src="politics.png" style="width: 100%; height: 100%">
+
+                       <label for="i2" class="pre"></label>
+                       <label for="i4" class="nxt"></label>
+                    </div> 
+
+                    <div class="slide_img" id="four">
+                       <img src="sports.jpg" style= "width: 100%; height: 100%">
+                       <label for="i3" class="pre"></label>
+                       <label for="i1" class="nxt"></label>
+                    </div>
+
+                      <div class="navbar">
+                         <label class="dots" id="dot1" for="i1"></label>
+                         <label class="dots" id="dot2" for="i2"></label>
+                         <label class="dots" id="dot3" for="i3"></label>
+                         <label class="dots" id="dot4" for="i4"></label>
+                      </div>
+                </div>
+        </header>
+            <!-- phtoto grid -->
+
+    <div class="row_news" id="first_row">
+        <div class="quarter">
+            <img src="gocorona.jpg" alt="updates">
+            <h3>No need to be afraid, face it</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et ...<a href="#">Read more</a></p>
+        </div>
+
+        <div class="quarter">
+            <img src="vaccine.jpg" alt="vaccine">
+            <h3>COVID-19 vaccine India latest update. </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et ..<a href="#">Read more</a></p>
+        </div>
+
+        <div class="quarter">
+            <img src="handshake.jpg" alt="Awareness">
+           	<h3> No handshake at all.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et ..<a href="#">Read more</a></p>
+        </div>
+    </div>
+
+    <div class="row_news" id="second_row">
+    	 <div class="quarter">
+        	<img src="economy.jpg" alt="Economy">
+        	<h3>Progression or retrogression in economy?</h3>
+        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        	tempor incididunt ut labore et ..<a href="#">Read more</a></p>
+        </div>
+
+        <div class="quarter">
+        	<img src="political.jpg" alt="politics">
+        	<h3>Let's talk about politics.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        	tempor incididunt ut labore et ..<a href="#">Read more</a></p>     	
+        </div>
+
+        <div class="quarter">
+        	<img src="messi.jpg" alt="sports">
+        	<h3>Messi wants to leave the club. </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        	tempor incididunt ut labore et ..<a href="#">Read more</a></p>         	
+        </div>
+    </div> 
+
+
+    <div class="footer">
+    	<p>copyright</p>
+    </div>
+
+    </div>
+
+</body>
+</html>
